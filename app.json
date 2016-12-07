@@ -1,0 +1,11 @@
+{
+        "pages":[
+		    "pages/news/news",
+		    "pages/show/show",
+		    "pages/lists/lists",
+		    "pages/pinlun/pinlun"
+		  ],
+	    "window": {
+	    "navigationBarTitleText": "知乎"
+	  }
+}

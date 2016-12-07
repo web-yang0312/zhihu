@@ -1,0 +1,17 @@
+.content{
+    padding: 30rpx;
+}
+.info{
+    height: 38rpx;
+}
+.dis{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 100rpx;
+    height: 100rpx;
+    background:darkcyan;
+    line-height: 100rpx;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}

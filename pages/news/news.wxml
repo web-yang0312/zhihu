@@ -1,0 +1,34 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{tops}}" wx:key="{{id}}">
+	    <swiper-item style="height:400rpx;background-size:cover;background-image: url({{item.image}})" class="swiper">
+            <view class="item-title">
+                 <view></view>
+            </view>
+        </swiper-item>
+  </block>
+</swiper>
+<view class="rewen" style="height:100rpx; width:100%; line-height:100rpx;font-size:14px;padding-left:36rpx;box-sizing: border-box;">今日热闻</view>
+<view class="new-list" >
+    <block wx:for="{{news}}" wx:key="{{id}}">
+        <view class="item"  data-title="{{item.title}}" data-id="{{item.id}}" bindtap="action">
+            <view class="n-title">{{item.title}}</view>
+            <view class="n-image" style="background-size:cover;background-image: url({{item.image}})" ></view>
+        </view>
+    </block>
+</view>
+
+<view class="zhao {{active?'active':''}}" animation="{{ani}}">
+	<view class="themes">
+	     <view class="t-item" wx:for="{{themes}}" wx:key="{{id}}" data-name="{{item.name}}"  data-id="{{item.id}}" bindtap="action2">
+	        {{item.name}}
+	     </view>
+	</view>
+</view>
+<view class="button" bindtap="tapbutton" >
+
+</view>
+
+<view class="start-image" style="background-image:url({{pic}})" animation="{{fade}}">
+     
+</view>

@@ -1,0 +1,6 @@
+<view class="content">{{content}}</view>
+<view class="info">
+    <view></view>
+    <view></view>
+    <navigator url="/pages/pinlun/pinlun?id={{item.id}}&title={{item.name}}" class="dis">查看评论</navigator>
+</view>

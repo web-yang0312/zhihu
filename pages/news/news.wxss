@@ -1,0 +1,82 @@
+.view{
+  box-sizing: border-box;
+}
+.swiper{
+  height:400rpx;
+  width:100%;
+  }
+.swiper .item-title{
+width:100%;
+height:400rpx;
+position:relative;
+  }
+.item{
+  height:190rpx;
+  width:95%;
+  background: #ffffff;
+  box-shadow: 0 0 15rpx 3rpx rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  margin-bottom:20rpx;
+  box-sizing: border-box;
+  padding: 15rpx;
+}
+.item .n-title{
+  float:left;
+  width:70%;
+  height:100%;
+  font-family: "微软雅黑";
+  }
+.item .n-image{
+  float:right;
+  width:23%;
+  height:100%;
+}
+.zhao{
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 30;
+    transform:translate3d(-400px,0,0);
+    transition:all 0.5s ease-out;
+}
+.active{
+    transform:translate3d(0,0,0);
+}
+.zhao .themes{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 400rpx;
+  background: lemonchiffon;
+  z-index: 300;
+  height: 100%;
+}
+.themes .t-item{
+  width:100%;
+  height:80rpx;
+  line-height: 80rpx;
+  padding-left:20rpx;
+}
+.button{
+  width:100rpx;
+  height:100rpx;
+  position: fixed;
+  right:50rpx;
+  bottom: 50rpx;
+  background: lightgoldenrodyellow;
+  border-radius: 50%;
+  z-index: 31;
+}
+.start-image{
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index: 10000000;
+  background: black;
+  background-size: cover;
+}
